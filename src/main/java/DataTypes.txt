@@ -1,0 +1,51 @@
+public class DataTypes {
+
+    public static void main(String[] args) {
+        // Boolean
+        Boolean firstBool = 1; // cannot assign 1
+        boolean secondBool = false; // capital letter boolean
+        Boolean thirdBool = true; // not a capital letter
+
+        // Bytes 8-bit
+        byte firstByte = 300; // nothing
+        Byte secondByte = 10000; // nothing
+        byte thirdByte = -2; // -2
+
+        // Short 16-bit 2 byte -> 8bits
+        Short firstShort = -1;
+        short secondShort = -33000;
+
+        // Integer 32bit
+        Integer firstInt = new Integer(1); // nothing
+        int secondInt = new Interger(23); // left side should be uppercase int
+        int thirdInt = 3000000000; // nothing
+
+        // Long 64-bit
+        long firstLong = 2; // nothing
+        Long secondLong = 3000000000; // nothing
+        Long thirdLong = 3000000000L; // nothing
+        Long fourthFloat = 33f; // nothing
+
+        // Float
+        float firstFloat = 32; // its an int
+        float secondFloat = 34f; // nothing
+        Float thirdFloat = 3.4F; // capital F
+        float fourthFloat = 3.4; // nothing
+        Long fifthFloat = 3000000000L; // nothing
+
+        // Double
+        Double firstDouble = 2.3.4; // double dots 
+        double secondDouble = 23.9f; //  nothing
+        Double thirdDecimal = 2.2; // nothing
+        double fourthDecimal = 23; // nothing
+
+        // Char
+        char firstChar = "word"; // has to be 1 character
+        Char secondChar = "\u0000"; // nothing
+        char thirstChar = '$'; // this is wrong cause quote
+        char fourthChar = "w"; // nothing
+        char fifthChar = 'A' + 1; // the + 1 should not be there and the quotes are wrong
+
+
+    }
+}
